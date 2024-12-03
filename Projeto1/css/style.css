@@ -1,0 +1,55 @@
+body {  /* selecionar todo o corpo da pagina */ 
+    color:white; /* Cor da fonte branca */
+    background-color: black; /*cor de fundo preta*/
+}
+
+a {
+    color: white;
+}
+
+nav a:hover{
+    color: chartreuse;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between ;
+    list-style-type: none; 
+}
+
+li{
+    border: 1px solid green;
+    margin: 20px; /*margem entre os elementos */
+    padding: 10px; /*margem interna */
+    border-radius: 5%;
+    
+}
+
+li:hover {
+    background-color: brown; /*Cor de fundo*/
+    
+}
+
+
+/* Avatar */
+
+.avatar img {
+    width: 150px;
+    border-radius: 50%;
+    /* border: 5px solid green; */
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ul {
+    display: flex;
+    justify-content: space-between ;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+} */
